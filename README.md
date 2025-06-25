@@ -45,7 +45,7 @@ A Spring Boot-based REST API that simulates a file system with directories and f
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/directory-size-calculator.git
+   git clone https://github.com/amanboobna/directory-size-calculator.git
    cd directory-size-calculator
    ```
 
