@@ -75,3 +75,10 @@ curl -X POST "http://localhost:8080/api/directory/cd?path=.."
 ```
 
 ---
+
+## 👤 Author
+
+**Aman Boobna**  
+NYU Computer Science Graduate  
+📧 ab10465@nyu.edu  
+🔗 [LinkedIn](https://linkedin.com/in/aman-boobna/) | [GitHub](https://github.com/amanboobna)
