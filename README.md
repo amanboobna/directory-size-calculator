@@ -16,7 +16,7 @@ A Spring Boot-based REST API that simulates a file system with directories and f
 
 ---
 
-## 🗃️ Database Schema
+## 🗃️ Tables Schema
 
 - **Directory**
   - `id`: Primary Key

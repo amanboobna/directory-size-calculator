@@ -24,7 +24,7 @@ public class FileItem {
     @Column(nullable = false)
     private long size; 
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "directory_id", nullable = false)
     private Directory directory;
 

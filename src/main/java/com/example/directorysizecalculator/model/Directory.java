@@ -30,10 +30,10 @@ public class Directory {
     @JoinColumn(name = "parent_id")
     private Directory parent;
 
-    @OneToMany(mappedBy = "parent", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "parent", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<Directory> subdirectories = new ArrayList<>();
 
-    @OneToMany(mappedBy = "directory", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "directory", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<FileItem> files = new ArrayList<>();
 
     public Directory() {}
